@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#uploadbox{
+	width:650px;
+	height:auto;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	margin-bottom:20px;
+	margin:0;
+	padding-left:10px;
+}
+
+#imagecontainer ul{
+	list-style: none;
+}
+
+.list_common{
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	float: left;
+	display: inline;
+	padding:0;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:111px;
+}
+#container{
+	width:650px;
+}
+#imagecontainer{
+	width:650px;
+	height:auto !important;
+	float:left;
+	margin-bottom:20px;
+	padding:5px;
+}
+
+.pic{
+	width:100px;
+	height:100px;
+	margin-right:10px;
+	margin-top:10px;
+	
+}
+#uploader form{
+	margin-top:10px;
+
+}

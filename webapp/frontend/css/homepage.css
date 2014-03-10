@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+	font-size: 62.5%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+a:link{
+	text-decoration: none;
+	color:#000000;
+	font-family: 'GillSans',Gill Sans,Arial;
+	font-size:13px;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#FF0;
+}
+
+a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+#featureddesigner a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+.login a:visited{
+	color:inherit;
+	text-decoration:none;
+}
+
+.list_common{
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	float: left;
+	display: block;
+}	
+#main{
+	margin:0 auto;
+	margin-top:5px;
+	height: auto;
+	width:895px;
+}
+
+#main_upper{
+	width:895px;
+	height:470px;
+}
+
+#images{
+	float:left;
+}
+
+.flexslider{
+	width:670px;
+	height:400px;
+}
+
+.flexslider ul li img{
+	width:670px;
+	height:400px;
+}
+
+#featureddesigner{
+	margin-left:685px;
+	width:215px;
+	height:447px;
+}
+
+#featureddesigner table{
+	width:200px;
+	font-family:"ModernNAP-Text",Georgia,"Times New Roman", Times,serif;
+	font-size:18px;
+	font-weight:normal;
+	overflow:hidden;
+}
+#featureddesigner table td{
+	height:79px;
+	width:79px;
+}
+#featureddesigner table td div{
+	margin:2px;
+	height:79px;
+	width:79px;
+}
+#main_center{
+	width:895px;
+	height:380px;
+}
+#videodiv{
+	width:500px;
+	height:380px;
+	float:left;
+}
+
+h3{
+	font-family:Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	font-size:21px;
+}
+
+#videodiv hr{
+		height:2px;
+		border:none;
+		border-top:2px ridge #000;
+		margin-bottom:5px;
+} 
+
+#profilediv{
+	margin-left:515px;
+	width:380px;
+	height:380px;
+	font-family:Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	font-size:12px;
+}
+
+#main_bottom h4{
+	margin-left:15px;
+}

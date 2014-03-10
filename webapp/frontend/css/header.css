@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+a:link{
+	text-decoration: none;
+	color: inherit;
+}
+a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#FF0;
+}
+
+.login a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.list_common{
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: 'GillSans',Gill Sans,Arial;
+	letter-spacing: 1px;
+	float: left;
+	font-weight:bold;
+}	
+
+#headerbg{
+	height: 195px;
+	width: 895px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+#headerupper{
+	position: relative;
+	top: 4%;
+	left: 5%;
+	width: 95%;
+	height: 10%;
+}
+#languages{
+	text-align: right;
+	margin-left: 81%;
+}
+#headercenter{
+	padding-left: 5%;
+	margin-top: 2%;
+	width: 95%;
+	height: 60%;
+}
+#title{
+	height: 100%;
+	width: 55%;
+}
+.menus{
+	font-family:'GillSans',Gill Sans,Arial;
+	letter-spacing: 1px;
+	height: 20%;
+	width: 15%;
+	display: block;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 2%;
+	position: relative;
+	left: 5%;
+	text-transform:uppercase;
+}

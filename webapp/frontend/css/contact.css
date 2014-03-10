@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	width:895px;
+	margin:0 auto;
+}
+
+#form_wrap{
+	margin:30px auto;
+	padding:30px 10px 30px 10px;
+	position:relative;
+	left:200px;
+}
+
+.main_wrapper ul{
+	list-style: none;
+}
+
+.required{
+	color:#ff0000;
+}

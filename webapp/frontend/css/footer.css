@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+#footerWrapper{
+	margin:0 auto;
+	margin-top:5px;
+	width:895px;
+	height:180px;
+	margin-bottom:30px;
+	position:relative;
+	top:10px;
+}
+
+#footerWrapper hr{
+	 height:8px;
+	 border:none;
+	 border-top:8px double black;
+	 position:relative;
+	 top:10px;
+	 margin-bottom:20px;
+}
+#information{
+	margin:0 auto;
+	width:1040px;
+	height:40px;
+	margin-left:100px;
+	position:relative;
+}
+#information li{
+	margin-top:10px;
+	height:40px;
+	width:120px;
+	display:block;
+	font-size:18px;
+	font-weight:bold;
+	list-style:none;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+#copyright{
+	margin:0 auto;
+	width:1040px;
+	height:40px;
+	margin-left:100px;
+	padding:0;
+	position:relative;
+	top:20px;
+}
+
+#copyright span{
+	margin-left:10px;
+}
+
+.list_commons{
+	width:890px;
+	list-style: none;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	display: block;
+	float:left;
+	
+}	
+
+.list_commons li{
+	float:left;
+	width:150px;
+	padding:5px;
+}
+
+.list_commons li a{
+	color:#000000;
+}
+
+.list_common_sub{
+	list-style: none;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial,"Microsoft YaHei","微软雅黑","Verdana",sans-serif,STXihei,"华文细黑";
+	letter-spacing: 1px;
+	float: left;
+	display: inline;
+	width:350px;
+	position:relative;
+	top:-8px;
+}	
+.list_common_sub li{
+	width:40px;
+}
+.list_common_sub li img{
+	height:20px;
+	width:20px;
+	
+}
+.copyright{
+	text-align:center;
+}
